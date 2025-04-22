@@ -5,8 +5,6 @@
 package co.edu.sena.examplejpa.persistence;
 
 import co.edu.sena.examplejpa.model.Employee;
-import co.edu.sena.examplejpa.persistence.EntityManagerHelper;
-import co.edu.sena.examplejpa.persistence.IEmployeeDAO;
 import java.util.List;
 import javax.persistence.Query;
 

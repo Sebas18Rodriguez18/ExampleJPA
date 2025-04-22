@@ -35,9 +35,9 @@ public class RecordDAO implements IRecordDAO{
     }
 
     @Override
-    public void delete(Record record) throws Exception {
+    public void delete(Integer id) throws Exception {
         try {
-            EntityManagerHelper.getEntityManager().remove(record);
+            EntityManagerHelper.getEntityManager().remove(id);
         }
         catch (RuntimeException e) {
             throw e;
