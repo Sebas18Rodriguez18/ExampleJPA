@@ -219,13 +219,6 @@ public class JFrameEmployee extends javax.swing.JFrame {
         jPanelEmployeeLayout.setHorizontalGroup(
             jPanelEmployeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanelEmployeeLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabelType)
-                .addGap(48, 48, 48)
-                .addComponent(jComboBoxType, javax.swing.GroupLayout.PREFERRED_SIZE, 151, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addComponent(jScrollPane1)
-            .addGroup(jPanelEmployeeLayout.createSequentialGroup()
                 .addGroup(jPanelEmployeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jButtonInsert)
                     .addGroup(jPanelEmployeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -264,6 +257,16 @@ public class JFrameEmployee extends javax.swing.JFrame {
                                     .addComponent(jTextFieldPhone, javax.swing.GroupLayout.DEFAULT_SIZE, 199, Short.MAX_VALUE)
                                     .addComponent(jTextFieldName))
                                 .addGap(36, 36, 36))))))
+            .addGroup(jPanelEmployeeLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanelEmployeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane1)
+                    .addGroup(jPanelEmployeeLayout.createSequentialGroup()
+                        .addComponent(jLabelType)
+                        .addGap(48, 48, 48)
+                        .addComponent(jComboBoxType, javax.swing.GroupLayout.PREFERRED_SIZE, 151, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 396, Short.MAX_VALUE)))
+                .addContainerGap())
         );
         jPanelEmployeeLayout.setVerticalGroup(
             jPanelEmployeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -297,8 +300,8 @@ public class JFrameEmployee extends javax.swing.JFrame {
                     .addComponent(jButtonDelete)
                     .addComponent(jButtonClean))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 401, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(26, Short.MAX_VALUE))
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 384, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(18, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -309,7 +312,7 @@ public class JFrameEmployee extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanelEmployee, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jPanelEmployee, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();
